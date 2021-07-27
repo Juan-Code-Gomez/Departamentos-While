@@ -8,6 +8,11 @@ let url = document.getElementById("url");
 const capital = () =>{
     let departamento =prompt("Escriba un departamento");
     departamento = departamento.toLowerCase();
+    while (departamento!=="amazonas" && departamento!=="antioquia" && departamento!=="arauca" && departamento!=="atlantico" && departamento!=="bogota" && departamento!=="bolivar" && departamento!=="boyaca" && departamento!=="caldas" && departamento!=="caqueta" && departamento!=="casanare" && departamento!=="cauca" && departamento!=="cesar" && departamento!=="choco" && departamento!=="cundinamarca" && departamento!=="guainia" && departamento!=="guaviare" && departamento!=="huila" && departamento!=="guajira" && departamento!=="magdalena" && departamento!=="meta" && departamento!=="nariño" && departamento!=="norte de santander" && departamento!=="putumayo" && departamento!=="risaralda" && departamento!=="san andres" && departamento!=="santander" && departamento!=="tolima" && departamento!=="valle del cauca" && departamento!=="vaupes" && departamento!=="risaralda" && departamento!=="san andres" && departamento!=="santander" && departamento!=="tolima" && departamento!=="valle del cauca" && departamento!=="vichada") {
+        alert("Favor ingrese un departamento valido");
+        departamento =prompt("Escriba un departamento");
+        
+    }
     if (departamento === "amazonas") {
         texto.innerHTML="La capital es Leticia<br>Ingresa aqui para ver su informacion<br>";
         url.innerHTML= '<a href="https://es.wikipedia.org/wiki/Leticia_(Colombia)">Leticia</a>'
