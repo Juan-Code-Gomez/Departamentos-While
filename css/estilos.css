@@ -1,0 +1,15 @@
+body{
+    background-image: url("../img/Colombia.jpg");
+}
+h1{
+    color: rgb(6, 94, 94);
+    text-align: center;
+}
+.carousel-inner img {
+    margin: auto;
+  }
+  .container-fluid {
+    display: flex;
+      justify-content: center;	
+}
+
